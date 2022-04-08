@@ -1,14 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import Hero from './components/heroSection/hero/Hero';
 import Footer from './components/footer/Footer';
+import Featured from './components/promotion/featured';
+import Products from './components/products/products';
+import { burgers } from './components/products/burgers';
+
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Hero />
+      <Products heading={'Our most popular burgers'} data={burgers} />
+      <Featured />
       <Footer />
-    </Router>
+    </>
   );
 }
 

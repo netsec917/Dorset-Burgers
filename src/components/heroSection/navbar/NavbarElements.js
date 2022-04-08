@@ -4,10 +4,11 @@ import { FaHamburger } from 'react-icons/fa';
 
 
 export const Nav = styled.nav`
-  background: transparent;
+  background: #e31837;
   height: 80px;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-weight: 700;
 `;
 
@@ -18,6 +19,7 @@ export const NavLink = styled.a`;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
+  margin-right: 3rem;
 
   @media screen and (max-width: 400px) {
     position: absolute;
@@ -27,13 +29,10 @@ export const NavLink = styled.a`;
 `;
 
 export const NavIcon = styled.div`
-  display: block;
   position: absolute;
-  top: 0;
   right: 0;
   cursor: pointer;
   color: #fff;
-
   p {
     transform: translate(-175%, 100%);
     font-weight: bold;
