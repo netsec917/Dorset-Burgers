@@ -2,7 +2,7 @@ import burger from '../../assets/burgerBg.jpg';
 import classic from '../../assets/6oz.webp';
 import chicken from '../../assets/chicken.jpg'
 
-const burgers = [
+const sides = [
   {
     img: classic,
     alt: 'Burger',
@@ -29,4 +29,4 @@ const burgers = [
   }
 ];
 
-export default burgers;
+export default sides;

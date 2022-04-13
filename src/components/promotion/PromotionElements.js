@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import FeaturePic from '../../assets/burgerBg.jpg';
+import PromotionPic from '../../assets/burgerBg.jpg';
 
-export const FeatureContainer = styled.div`
+export const PromotionContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-    url(${FeaturePic});
+    url(${PromotionPic});
   height: 100vh;
   max-height: 500px;
   background-position: center;
@@ -23,7 +23,7 @@ export const FeatureContainer = styled.div`
     font-size: clamp(1rem, 3vw, 2rem);
   }
 `;
-export const FeatureButton = styled.button`
+export const PromotionButton = styled.button`
   font-size: 1.4rem;
   padding: 0.6rem 3rem;
   border: none;

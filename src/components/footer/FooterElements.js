@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
-  background-color: #e31837;
+  background-color: #fff;
 `;
 
 export const FooterWrap = styled.div`
@@ -32,7 +32,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled.a`
-  color: #fff;
+  color: #e31837;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -51,6 +51,6 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #fff;
+  color: #e31837;
   font-size: 24px;
 `;
