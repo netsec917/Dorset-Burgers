@@ -1,12 +1,15 @@
 import styled from 'styled-components';
-import ImgBg from '../../../assets/burgerBg.jpg';
+import ImgBg from '../../assets/cooking.gif';
 
 export const HeroContainer = styled.div`
+
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
     url(${ImgBg});
   height: 100vh;
   background-position: center;
   background-size: cover;
+  min-width: 0;
+
 `;
 
 export const HeroContent = styled.div`
@@ -28,7 +31,6 @@ export const HeroItems = styled.div`
   text-transform: uppercase;
   line-height: 1;
   font-weight: bold;
-
   @media screen and (max-width: 650px) {
     width: 100%;
   }
@@ -48,17 +50,20 @@ export const HeroP = styled.p`
 `;
 
 export const HeroBtn = styled.button`
-  font-size: 1.4rem;
-  padding: 1rem 4rem;
-  border: none;
-  background: #e31837;
-  color: #fff;
-  transition: 0.2s ease-out;
-  border-radius: 15px;
-  &:hover {
-    background: #ffc500;
-    transition: 0.2s ease-out;
-    cursor: pointer;
-    color: #000;
-  }
+background: #e31837;
+white-space: nowrap;
+padding: 16px 64px;
+color: #fff;
+font-size: 16px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: 0.2s ease-in-out;
+text-decoration: none;
+border-radius: 15px;
+&:hover {
+  transition: 0.2s ease-in-out;
+  background: #ffc500;
+  color: #e31837;
+}
 `;

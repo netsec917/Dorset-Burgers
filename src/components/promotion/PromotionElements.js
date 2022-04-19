@@ -15,26 +15,32 @@ export const PromotionContainer = styled.div`
   color: #fff;
   text-align: center;
   padding: 0 1rem;
+
   h1 {
     font-size: clamp(3rem, 5vw, 5rem);
   }
+
   p {
     margin-bottom: 1rem;
     font-size: clamp(1rem, 3vw, 2rem);
   }
 `;
+
 export const PromotionButton = styled.button`
-  font-size: 1.4rem;
-  padding: 0.6rem 3rem;
+  background: #e31837;
+  white-space: nowrap;
+  padding: 16px 64px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
   border: none;
-  background: #ffc500;
-  color: #000;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
   border-radius: 15px;
-  transition: 0.2s ease-out;
   &:hover {
-    color: #fff;
-    background: #e31837;
-    transition: 0.2s ease-out;
-    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background: #ffc500;
+    color: #e31837;
   }
 `;

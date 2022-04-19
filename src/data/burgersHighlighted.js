@@ -1,8 +1,7 @@
-import burger from '../../assets/burgerBg.jpg';
-import classic from '../../assets/6oz.webp';
-import chicken from '../../assets/chicken.jpg'
-
-const sides = [
+import classic from '../assets/6oz.webp';
+import chicken from '../assets/chicken.jpg'
+import blackBean from '../assets/Black-Bean-Burger.jpg'
+const burgers = [
   {
     img: classic,
     alt: 'Burger',
@@ -20,7 +19,7 @@ const sides = [
     price: '£8.99'
   },
   {
-    img: burger,
+    img: blackBean,
     alt: 'Burger',
     name: 'Veggie delight bean burger',
     desc:
@@ -29,4 +28,4 @@ const sides = [
   }
 ];
 
-export default sides;
+export default burgers;

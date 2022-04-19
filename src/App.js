@@ -1,10 +1,10 @@
 import React from 'react';
-import Hero from './components/heroSection/hero/Hero';
+import Hero from './components/hero/Hero';
 import Footer from './components/footer/Footer';
 import Promotion from './components/promotion/Promotion';
 import Products from './components/products/Products';
-import burgers from './components/products/burgers';
-import sides from './components/products/sides';
+import burgers from './data/burgersHighlighted';
+import sides from './data/sidesHighlighted';
 
 const App = () => {
   return (
