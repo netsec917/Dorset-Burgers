@@ -1,6 +1,6 @@
-import burger from '../assets/burgerBg.jpg';
 import fries from '../assets/fries.gif';
 import onionRings from '../assets/onionRings.JPG';
+import salad from '../assets/salad.jpg'
 
 const sides = [
   {
@@ -20,7 +20,7 @@ const sides = [
     price: '£8.99'
   },
   {
-    img: burger,
+    img: salad,
     alt: 'Side salad',
     name: 'Side salad',
     desc:

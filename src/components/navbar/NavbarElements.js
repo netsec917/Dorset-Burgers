@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 import { FaHamburger } from 'react-icons/fa';
 
-
-
 export const Nav = styled.nav`
   background: #fff;
   height: 80px;
@@ -10,6 +8,7 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-weight: 700;
+  
 `;
 
 export const NavLink = styled.a`;
@@ -19,8 +18,8 @@ export const NavLink = styled.a`;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
-  margin-right: 3rem;
-
+  margin-right: 4rem;
+  font-family: 'Insaniburger', sans-serif;
   @media screen and (max-width: 400px) {
     position: absolute;
     top: 10px;
